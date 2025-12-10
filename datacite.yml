@@ -1,0 +1,27 @@
+data:
+  attributes:
+    types:
+      resourceTypeGeneral: Dataset
+    contributors:
+      - name: Bukach, C.M.
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 1
+      - name: Reed, C.L.
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 2
+    creators:
+      - name: Bukach, C.M.
+        nameType: Personal
+      - name: Reed, C.L.
+        nameType: Personal
+    descriptions:
+      - description: N/A
+        descriptionType: Abstract
