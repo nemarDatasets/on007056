@@ -1,15 +1,19 @@
 {
   "onset": {
     "Description": "Event onset time relative to the start of the EEG recording.",
-    "Units": "seconds"
+    "Units": "s"
   },
   "duration": {
     "Description": "Duration of the event.",
-    "Units": "seconds"
+    "Units": "s"
   },
-  "trial_type": {
+  "sample": {
+    "Description": "sample of the event."
+  },
+  "value": {
     "Description": "Experimental condition label for the event.",
     "Levels": {
+      "boundary": "boundary event",
       "11": "Rare_Target",
       "22": "Rare_Target",
       "33": "Rare_Target",
@@ -36,10 +40,9 @@
       "53": "Frequent_NonTarget",
       "54": "Frequent_NonTarget",
       "201": "CorrectResponse",
-      "202": "IncorrectResponse"
+      "202": "IncorrectResponse",
+      "1" : "Unknown",
+      "221" : "Unknown"
     }
-  },
-  "value": {
-    "Description": "Original numeric event code imported from the EEG acquisition system."
   }
 }
