@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PURSUE P300 Visual Oddball",
-  "description": "This dataset comprises event-related potential (ERP) recordings from a visual oddball task collected as part of the PURSUE project across three undergraduate institutions (Southern California, Massachusetts, and Virginia). Participants performed a standard P300 oddball paradigm while EEG was recorded in 2017-2018. The dataset is part of the ERP CORE initiative, an open resource for human event-related potential research, and includes demographic information from a geographically and ethnically diverse sample.",
+  "description": "This dataset comprises event-related potential (ERP) recordings from a visual oddball task collected as part of the PURSUE project across three primarily undergraduate institutions. Participants performed a P300 oddball paradigm while EEG was recorded in 2017-2018. This dataset is one of the standardized ERP CORE initiative datasets, an open resource for standardized human event-related potential research.",
   "methods_description": "EEG data were collected during a visual oddball task from participants at three primarily undergraduate institutions (Southern California, Massachusetts, and Virginia) in 2017 and 2018. Task design details are provided in Kappenman et al. (2021, NeuroImage, 225, 117465, https://doi.org/10.1016/j.neuroimage.2020.117465) and supplementary materials.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -16,10 +16,10 @@
       "term": "EEG"
     },
     {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "P300"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "oddball paradigm"
@@ -32,6 +32,9 @@
     },
     {
       "term": "ERP CORE"
+    },
+    {
+      "term": "electrophysiology"
     }
   ],
   "related_identifiers": [
