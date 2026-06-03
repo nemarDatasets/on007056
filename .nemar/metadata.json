@@ -1,29 +1,78 @@
 {
   "version": "2.0",
-  "dataset_id": "on007056",
-  "source": "openneuro",
-  "source_id": "ds007056",
+  "pipeline_stage": "enriched",
   "title": "PURSUE P300 Visual Oddball",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Couperus, J.W.": {},
     "Bukach, C.M.": {},
     "Reed, C.L.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007056.v1.1.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2020.117465",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007056",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007056",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "8.4 GB (289 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".yml"
+  ],
+  "description": "This dataset comprises event-related potential (ERP) recordings from a visual oddball task collected as part of the PURSUE project across three primarily undergraduate institutions (Southern California, Massachusetts, and Virginia). Participants performed a P300 oddball paradigm while EEG was recorded in 2017-2018. This dataset is part of the ERP CORE resource, providing standardized neurophysiological data for investigating visual attention and stimulus classification processes.",
+  "methods_description": "EEG data were collected during a visual oddball task from participants at three primarily undergraduate institutions (Southern California, Massachusetts, and Virginia) in 2017 and 2018. Task design details are provided in Kappenman et al. (2021, NeuroImage, 225, 117465, https://doi.org/10.1016/j.neuroimage.2020.117465) and supplementary materials.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "oddball paradigm"
+    },
+    {
+      "term": "visual oddball task"
+    },
+    {
+      "term": "visual attention"
+    },
+    {
+      "term": "ERP CORE"
+    },
+    {
+      "term": "PURSUE project"
+    }
+  ],
+  "source_hash": "a90b70c7e475d2c9453d85d7a9cf22deb5bc3872ab842ab28d0704cd99d9e691"
 }
